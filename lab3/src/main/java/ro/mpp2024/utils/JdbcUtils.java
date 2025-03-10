@@ -28,7 +28,7 @@ public class JdbcUtils {
         String url=jdbcProps.getProperty("jdbc.url");
         String user=jdbcProps.getProperty("jdbc.user");
         String pass=jdbcProps.getProperty("jdbc.pass");
-        logger.info("trying to connect to database ... {}",url);
+        logger.info("trying to connect to database... {}",url);
         logger.info("user: {}",user);
         logger.info("pass: {}", pass);
         Connection con=null;
